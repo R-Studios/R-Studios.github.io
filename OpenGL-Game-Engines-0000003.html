@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio - Roman Wecker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/avatar.jpg">
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Portfolio</a></h1>
+					<nav class="links">
+						<ul>
+							<li><a href="About-me.html">About me</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<nav class="main">
+						<ul>
+							<li class="menu">
+								<a class="fa-bars" href="#menu">Menu</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+					<ul class="actions">
+						<li><a href="index.html" class="button large">Back</a></li>
+					</ul>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="index.html">
+											<h3>Portfolio</h3>
+										</a>
+									</li>
+									<li>
+										<a href="About-me.html">
+											<h3>About me</h3>
+										</a>
+									</li>
+									<li>
+										<a href="Contact.html">
+											<h3>Contact</h3>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/roman-wecker/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/R-Studios/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:Roman.Wecker@gmx.de" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Roman Wecker, Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="OpenGL-Game-Engines-0000003.html">OpenGL Game Engines</a></h2>
+										<p>Engine Development - Programming</p>
+									</div>
+									<div class="meta">
+										<time class="published">Project #3</time>
+										<a href="About-me.html" class="author"><span class="name">Roman Wecker</span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+
+								<section>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="image featured"><img src="images/pic03.jpg" alt="" /></div>
+											<h3>The Backstory</h3>
+											<p>
+												<span class="image left">
+													<img src="images/OpenGL-Game-Engines-0000003/pic01.jpg" alt="" />
+												</span>
+												I have developed two own game engines so far.  Both engines were developed in Java with the LWJGL framework and the OpenGL graphics API. I did not develop everything from scratch myself, otherwise engine development can take several years. I worked through tutorials on various topics to put the final engine together. I also read up on various computer graphics algorithms.
+											</p>
+											<p>
+												<span class="image right">
+													<img src="images/OpenGL-Game-Engines-0000003/pic02.jpg" alt="" />
+												</span>
+												The biggest weakness of my first engine was that objects were not arranged hierarchically. This made it difficult to apply simple animations to child objects.  For the second engine, I came up with my own optimised scene graph. All objects are arranged hierarchically in a tree and each object stores its own transformation matrix. This means that the transformation matrices of all objects do not have to be recalculated in every frame, but only the subtrees where a transformation was applied to the parent node. The tree structure also makes it much easier to implement acceleration structures such as BVH in the future.
+											</p>
+										</div>
+									</div>
+								</section>
+								
+								<footer>
+									<ul class="stats">
+										<li><a href="https://www.java.com/de/" target="_blank">Java</a></li>
+										<li><a href="https://www.lwjgl.org/" target="_blank">LWJGL</a></li>
+										<li><a href="https://www.opengl.org/" target="_blank">OpenGL</a></li>
+										<li><a href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language" target="_blank">GLSL</a></li>
+									</ul>
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+				<section id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/roman-wecker/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/R-Studios/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:Roman.Wecker@gmx.de" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<p class="copyright">&copy; Roman Wecker, Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

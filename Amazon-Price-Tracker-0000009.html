@@ -1,144 +1,239 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Portfolio - Roman Wecker</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/avatar.jpg">
-	</head>
-	<body class="single is-preload">
+  <head>
+    <title>Portfolio - Roman Wecker</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/avatar.png" />
+  </head>
+  <body class="single is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">Portfolio</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="About-me.html">About me</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <ul class="actions">
+        <li><a href="index.html" class="button large">Back</a></li>
+      </ul>
 
-				<!-- Header -->
-				<header id="header">
-					<h1><a href="index.html">Portfolio</a></h1>
-					<nav class="links">
-						<ul>
-							<li><a href="About-me.html">About me</a></li>
-							<li><a href="Contact.html">Contact</a></li>
-						</ul>
-					</nav>
-					<nav class="main">
-						<ul>
-							<li class="menu">
-								<a class="fa-bars" href="#menu">Menu</a>
-							</li>
-						</ul>
-					</nav>
-				</header>
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="index.html">
+                <h3>Portfolio</h3>
+              </a>
+            </li>
+            <li>
+              <a href="About-me.html">
+                <h3>About me</h3>
+              </a>
+            </li>
+            <li>
+              <a href="Contact.html">
+                <h3>Contact</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
 
-					<ul class="actions">
-						<li><a href="index.html" class="button large">Back</a></li>
-					</ul>
+        <!-- Footer -->
+        <section id="footer">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/roman-wecker/"
+                target="_blank"
+                class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/R-Studios/"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:Roman.Wecker@gmx.de"
+                class="icon solid fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+          <p class="copyright">
+            &copy; Roman Wecker, Design:
+            <a href="http://html5up.net" target="_blank">HTML5 UP</a>
+          </p>
+        </section>
+      </section>
 
-				<!-- Menu -->
-					<section id="menu">
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2>
+                <a href="Amazon-Price-Tracker-0000009.html"
+                  >Amazon Price Tracker</a
+                >
+              </h2>
+              <p>Concept - Design - Programming</p>
+            </div>
+            <div class="meta">
+              <time class="published">Project #9</time>
+              <a href="About-me.html" class="author"
+                ><span class="name">Roman Wecker</span
+                ><img src="images/avatar.png" alt=""
+              /></a>
+            </div>
+          </header>
 
-						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<a href="index.html">
-											<h3>Portfolio</h3>
-										</a>
-									</li>
-									<li>
-										<a href="About-me.html">
-											<h3>About me</h3>
-										</a>
-									</li>
-									<li>
-										<a href="Contact.html">
-											<h3>Contact</h3>
-										</a>
-									</li>
-								</ul>
-							</section>
+          <section>
+            <div class="box alt">
+              <div class="row gtr-uniform">
+                <div class="image featured">
+                  <img
+                    src="images/Amazon-Price-Tracker-0000009/pic01.jpg"
+                    alt=""
+                  />
+                </div>
+                <h3>The Backstory</h3>
+                <p>
+                  Amazon Price Tracker consists of a Node.js Express web server
+                  backend, which tracks prices for products on Amazon. Products
+                  can be managed in a Vue.js single-page application frontend.
+                  Email notifications are sent with Nodemailer, when a product
+                  is available at the desired price. <br /><br />The project is
+                  built for use on a Raspberry Pi 3 Model B V1.2. It will
+                  probably also run on other Raspberry Pi models, but is not
+                  tested. It also runs on other operating systems (Windows 10
+                  tested), but the setup for autostart is different and will not
+                  be described here. When the Raspberry Pi is powered up it
+                  automatically boots up Amazon Price Tracker and the tool can
+                  be accessed by other devices in the same network.
+                  <br /><br />I made the project open source and it is available
+                  on GitHub. <br /><a
+                    href="https://github.com/R-Studios/Amazon-Price-Tracker"
+                    target="_blank"
+                    >https://github.com/R-Studios/Amazon-Price-Tracker</a
+                  >
+                </p>
+                <div class="col-4">
+                  <span class="image fit"
+                    ><img
+                      src="images/Amazon-Price-Tracker-0000009/pic02.jpg"
+                      alt=""
+                  /></span>
+                </div>
+                <div class="col-4">
+                  <span class="image fit"
+                    ><img
+                      src="images/Amazon-Price-Tracker-0000009/pic03.jpg"
+                      alt=""
+                  /></span>
+                </div>
+                <div class="col-4">
+                  <span class="image fit"
+                    ><img
+                      src="images/Amazon-Price-Tracker-0000009/pic04.jpg"
+                      alt=""
+                  /></span>
+                </div>
+              </div>
+            </div>
+          </section>
 
-						<!-- Footer -->
-							<section id="footer">
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/roman-wecker/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/R-Studios/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="mailto:Roman.Wecker@gmx.de" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-								<p class="copyright">&copy; Roman Wecker, Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
-							</section>
+          <footer>
+            <ul class="stats">
+              <li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
+              <li>
+                <a href="https://nodejs.org/en/" target="_blank">Node.js</a>
+              </li>
+              <li>
+                <a href="https://expressjs.com/de/" target="_blank">Express</a>
+              </li>
+              <li>
+                <a href="https://nodemailer.com/about/" target="_blank"
+                  >Nodemailer</a
+                >
+              </li>
+              <li>
+                <a href="https://www.raspberrypi.com/" target="_blank"
+                  >Raspberry Pi</a
+                >
+              </li>
+            </ul>
+          </footer>
+        </article>
+      </div>
 
-					</section>
+      <!-- Footer -->
+      <section id="footer">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/roman-wecker/"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/R-Studios/"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:Roman.Wecker@gmx.de" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Roman Wecker, Design: <a href="http://html5up.net">HTML5 UP</a>
+        </p>
+      </section>
+    </div>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="Amazon-Price-Tracker-0000009.html">Amazon Price Tracker</a></h2>
-										<p>Concept - Design - Programming</p>
-									</div>
-									<div class="meta">
-										<time class="published">Project #9</time>
-										<a href="About-me.html" class="author"><span class="name">Roman Wecker</span><img src="images/avatar.jpg" alt="" /></a>
-									</div>
-								</header>
-
-								<section>
-									<div class="box alt">
-										<div class="row gtr-uniform">
-											<div class="image featured"><img src="images/Amazon-Price-Tracker-0000009/pic01.jpg" alt="" /></div>
-											<h3>The Backstory</h3>
-											<p>Amazon Price Tracker consists of a Node.js Express web server backend, which tracks prices for products on Amazon. Products can be managed in a Vue.js single-page application frontend. Email notifications are sent with Nodemailer, when a product is available at the desired price.
-                      <br><br>The project is built for use on a Raspberry Pi 3 Model B V1.2. It will probably also run on other Raspberry Pi models, but is not tested. It also runs on other operating systems (Windows 10 tested), but the setup for autostart is different and will not be described here. When the Raspberry Pi is powered up it automatically boots up Amazon Price Tracker and the tool can be accessed by other devices in the same network.
-                      <br><br>I made the project open source and it is available on GitHub.
-                      <br><a href="https://github.com/R-Studios/Amazon-Price-Tracker" target="_blank">https://github.com/R-Studios/Amazon-Price-Tracker</a>
-                      </p>
-                      <div class="col-4"><span class="image fit"><img src="images/Amazon-Price-Tracker-0000009/pic02.jpg" alt="" /></span></div>
-                      <div class="col-4"><span class="image fit"><img src="images/Amazon-Price-Tracker-0000009/pic03.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/Amazon-Price-Tracker-0000009/pic04.jpg" alt="" /></span></div>
-                    </div>
-									</div>
-								</section>
-								
-								<footer>
-									<ul class="stats">
-										<li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
-										<li><a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
-										<li><a href="https://expressjs.com/de/" target="_blank">Express</a></li>
-										<li><a href="https://nodemailer.com/about/" target="_blank">Nodemailer</a></li>
-										<li><a href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a></li>
-									</ul>
-								</footer>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-				<section id="footer">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/roman-wecker/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/R-Studios/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:Roman.Wecker@gmx.de" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<p class="copyright">&copy; Roman Wecker, Design: <a href="http://html5up.net">HTML5 UP</a></p>
-				</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
